@@ -1,0 +1,16 @@
+Das Scrpt benötigt curl, ip, traceroute
+
+sudo ap-get update
+sudo apt-get install traceroute
+sudo apt-get install curl
+sudo apt-get install ip
+
+jeweils bei Bedarf
+
+Das Script prüft alle Scnittstellen und zeigt die interne und externe IP an (IPV4 und IPV6)
+
+das script vor dem Starten mit
+chmod +x ip-widget.sh
+ausführbar machen
+
+starten mit ./ip-widget.sh
